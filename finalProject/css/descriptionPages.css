@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Poppins&display=swap');
+body{
+    background-image: url("../media/homeBackground.jpg");
+}
+h1{
+    font-family: 'Fugaz One', cursive;
+    font-size: 5em;
+    padding: 0%;
+    margin: 0%;
+    color: rgb(29, 25, 23);
+    text-align: center;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    border: 5px rgb(29, 25, 23) solid;
+    border-radius: 45px;
+}
+p{
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+}
+button{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(29, 25, 23);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}

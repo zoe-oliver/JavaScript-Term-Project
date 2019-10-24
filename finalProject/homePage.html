@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+    The audience for this website would be pretty wide 
+    but would tend to be older users and not super young children. 
+    This is because the games are themed to be like mind/brain games
+    so young kids would not be that intrested.
+
+    I choose a flexbox layout where each game has it's own section.
+    Within those sections users can directly choose to play the game or
+    they can see the description and then play the game. 
+    I choose to layout the page like this so that users could have quick acces
+    to the games and at the same time have a clear way to learn more if they
+    are confused.
+
+    My color scheme is really simple, the main colors are tan and dark
+    blue, which I got fro the background image. I also used some white to help
+    define certian sections of the page. The logo for the meory game is more 
+    colorful than the rest of the page simply so that users will be able to better
+    recognize what that game is. I used such a simple color scheme so that the page 
+    would look professional and somewhat educational because of my mind games 
+    theme and I felt that I did not need to use espically bright colors because 
+    the page's audience is mainly not kids.
+ -->
+<html>
+<head>
+    <title>Mind Games JS Final</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <h1>Mind Games</h1>
+    <article>
+        <section>
+            <h2>Maze Game</h2>
+            <img src="media/mazelogo.png">
+            <a id="mazeDes" href="mazeDescription.html"><button>Game Description</button></a>
+            <a id="mazeGame" href="maze.html"><button>Play</button></a>
+        </section>
+        <section>
+                <h2>Tic-Tac-Toe</h2>
+                <img src="media/tictactoelogo.png">
+                <a id="TTTDis" href="TicTacToeDescription.html"><button>Game Description</button></a>
+                <a id="TTTGame" href="ticTacToe.html"><button>Play</button></a>
+            </section>
+        <section>
+            <h2>Memory Game</h2>
+            <img src="media/simonlogo.png">
+            <a id="MemDis" href="memoryDescription.html"><button>Game Description</button></a>
+            <a id="MemGame" href="memory.html"><button>Play</button></a>
+        </section>
+    </article>
+</body>
+</html>
