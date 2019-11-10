@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Poppins&display=swap');
+body{
+    background: rgb(244, 237, 227);
+}
+h1{
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    font-size: 4em;
+    padding: 0px;
+    margin: 0px;
+    color: 	darkslategrey;
+    text-shadow: 3px 2.5px teal;
+}
+h2{
+    font-family: 'Fugaz One', cursive;
+    color: darkslategray;
+    margin-top: 0px;
+    padding: 0px;
+}
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: teal; 
+    border: 3px solid darkslategrey;
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: white;
+    color: 	teal;
+}
+table{
+    margin-top: 5%;
+    background-color: rgb(29, 25, 23);
+}
+td {
+    border: 3px solid rgb(29, 25, 23);
+    height: 100px;
+    width: 100px;
+    background-color: rgb(244, 237, 227);
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    font-size: 4em;
+    color: black;
+}
+
+.blank {
+    display: none;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 120px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}

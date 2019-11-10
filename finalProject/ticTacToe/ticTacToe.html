@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic-Tac-Toe</title>
+        <link rel="stylesheet" href="css/ttt.css">
+    </head>
+    <body>
+        <h1>Tic-Tac-Toe</h1>
+        <section>
+                <h2 id="currentPlayer">V.S. Computer</h2>
+        </section>
+        <section>
+        <table id="board">
+                <tr>
+                    <td id="0"></td>
+                    <td id="1"></td>
+                    <td id="2"></td>
+                </tr>
+                <tr>
+                    <td id="3"></td>
+                    <td id="4"></td>
+                    <td id="5"></td>
+                </tr>
+                <tr>
+                    <td id="6"></td>
+                    <td id="7"></td>
+                    <td id="8"></td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <button id="reset">Play Again</button>
+            <button id="read">ReadMe</button>
+        </section>
+        <section>
+                <button id="back">Back to Home</button>
+        </section>
+        <div id="win" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>You Win!</p>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/ttt.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Maze</title>
+        <link rel="stylesheet" href="css/maze.css">
+    </head>
+    <body onload="setupGame()">
+        <h1>Maze Game</h1>
+        <h2 id="levelCount">Current Level: 1</h2>
+        <div id="canvasDiv">
+                <canvas id="mazeCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+        </div>
+        <div id="levels">
+            <button id="eaiser" onclick="lvldown()">Eaiser</button>
+            <button id="harder" onclick="lvlup()">Harder</button>
+        </div>
+        <div>
+            <button id="read">ReadMe</button>
+        </div>
+        <div id="lowestLVL" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>There are no more mazes in this direction! <br>Try clicking the other button to acces mazes 1-5!</p>
+        </div>
+        
+        <script src="js/maze.js"></script> 
+    </body>
+</html>
