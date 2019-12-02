@@ -11,25 +11,27 @@ var timer;
 function setupGame() {
     canvas = document.getElementById("mazeCanvas");
     context = canvas.getContext("2d");
-    drawMaze();
-    
-};
-
-function drawMaze() {
-    context.clearRect(0, 0, canvas.width, canvas.height);
-    clearTimeout(timer);
-
-    var imgMaze = new Image();
-    imgMaze.onload = function() {
-    canvas.width = imgMaze.width;
-    canvas.height = imgMaze.height;
-    context.drawImage(imgMaze, 0,0);
-
-    imgMaze.src = maze;
-    timer = setTimeout(drawFrame, 10);
-    };
-};
-
+  
+    drawMaze("media/lvl1.png");
+  };
+  
+  
+  function drawMaze(mazeFile) {
+      clearTimeout(timer);
+  
+      context.clearRect(0, 0, canvas.width, canvas.height);
+  
+      var imgMaze = new Image();
+      imgMaze.onload = function() {
+      canvas.width = imgMaze.width;
+      canvas.height = imgMaze.height;
+      context.drawImage(imgMaze, 0,0);
+  
+      timer = setTimeout(drawIcon, 10);
+      };
+      imgMaze.src = mazeFile;
+  }
+  
 
 
 

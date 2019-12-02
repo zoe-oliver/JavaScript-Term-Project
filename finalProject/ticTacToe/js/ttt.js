@@ -89,6 +89,13 @@ $("#read").click(function(){
     window.location.href = "readMe.txt";
 });
 
+readMeText = document.getElementById("rdMeContent");
+document.getElementById("readShow").addEventListener('click', function () {
+    readMeText.style.display = 'block';
+});
+document.getElementById("readHide").addEventListener('click', function () {
+    readMeText.style.display = 'none';
+});
 
 
 var modal = document.getElementById('win');

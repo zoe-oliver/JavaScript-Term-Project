@@ -23,6 +23,7 @@ body{
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    text-align: center;
 }
 h1{
     font-family: 'Fugaz One', cursive;
@@ -48,6 +49,7 @@ button{
     color: white;
     text-align: center;
     margin: 0%;
+    margin-right: 5px;
 }
 button:hover{
     background-color: white;
@@ -64,4 +66,15 @@ canvas{
     border: 10px solid rgb(29, 25, 23);
     background-color: white;
     padding: 3%;
+}
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+pre{
+    display: none;
 }

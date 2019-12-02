@@ -8,7 +8,7 @@ the player can press play again to replay tic-tac-toe.
 
 Issues:
 There is currently no code that prevents the player from clicking on an 
-already marked box, so playeres could easily cheat, defeating the purpose of
+already marked box, so players could easily cheat, defeating the purpose of
 the game. 
 
 copyright Zoe Oliver

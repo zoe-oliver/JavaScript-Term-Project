@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Poppins&display=swap');
+body{
+    background: rgb(244, 237, 227);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+h1{
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    font-size: 4em;
+    padding: 0px;
+    margin: 0px;
+    color: 	darkslategrey;
+    text-shadow: 3px 2.5px teal;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+    color: darkslategray;
+    padding: 0%;
+    margin-top: 1%;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 50%;
+    margin-left: 25%;
+}
+#btn1 {
+    background-color: red;
+    height: 125px;
+    width: 125px;
+    border: black 8px solid;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+#btn2 {
+    background-color: blue;
+    height: 125px;
+    width: 125px;
+    border: black 8px solid;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+#btn3 {
+    background-color: green;
+    height: 125px;
+    width: 125px;
+    border: black 8px solid;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+#btn4 {
+    background-color: yellow;
+    height: 125px;
+    width: 125px;
+    border: black 8px solid;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.highlighted#btn1 {
+    background-color: rgba(255, 0, 0, 0.411);
+    height: 125px;
+    width: 125px;
+    border: rgba(0, 0, 0, 0.418) 8px solid;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.highlighted#btn2 {
+    background-color: rgba(13, 5, 119, 0.418);
+    height: 125px;
+    width: 125px;
+    border: rgba(0, 0, 0, 0.418) 8px solid;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.highlighted#btn3 {
+    background-color: rgba(7, 85, 4, 0.411);
+    height: 125px;
+    width: 125px;
+    border: rgba(0, 0, 0, 0.418) 8px solid;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.highlighted#btn4 {
+    background-color: rgba(238, 255, 0, 0.411);
+    height: 125px;
+    width: 125px;
+    border: rgba(0, 0, 0, 0.418) 8px solid;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 120px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    background-color: teal; 
+    border: 3px solid darkslategrey;
+    margin: 2px;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: white;
+    color: 	teal;
+}
+
+pre{
+    display: none;
+}
